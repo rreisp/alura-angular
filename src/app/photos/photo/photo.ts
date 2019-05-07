@@ -6,5 +6,5 @@ export interface Photo {
     allowComments: boolean;
     likes: number;
     comments: number;
-    user: number;
+    userId: number;
 }
