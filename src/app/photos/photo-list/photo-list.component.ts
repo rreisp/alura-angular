@@ -11,6 +11,8 @@ import { Photo } from '../photo/photo';
 })
 export class PhotoListComponent implements OnInit {
   photos: Photo[] = [];
+  // tslint:disable-next-line:no-inferrable-types
+  filter: string = '';
 
   constructor(
     private photoService: PhotoService,
