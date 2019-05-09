@@ -1,0 +1,19 @@
+import { Component, OnInit, Input } from '@angular/core';
+
+import { Photo } from './../../photo/photo';
+
+@Component({
+  // tslint:disable-next-line:component-selector
+  selector: 'ap-photos',
+  templateUrl: './photos.component.html',
+  styleUrls: ['./photos.component.css']
+})
+export class PhotosComponent implements OnInit {
+
+  @Input() photos: Photo[] = [];
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
