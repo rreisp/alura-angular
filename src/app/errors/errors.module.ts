@@ -6,6 +6,6 @@ import { NotFoundComponent } from './not-found/not-found.component';
   imports: [
     CommonModule
   ],
-  declarations: [NotFoundComponent]
+  declarations: [ NotFoundComponent ]
 })
 export class ErrorsModule { }
