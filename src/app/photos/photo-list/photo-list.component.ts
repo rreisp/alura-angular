@@ -49,5 +49,4 @@ export class PhotoListComponent implements OnInit, OnDestroy {
         }
       });
   }
-
 }
