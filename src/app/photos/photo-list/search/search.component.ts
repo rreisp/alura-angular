@@ -11,6 +11,7 @@ import { debounceTime } from 'rxjs/operators';
 export class SearchComponent implements OnInit, OnDestroy {
         // tslint:disable-next-line:no-output-on-prefix
         @Output() onTyping: EventEmitter<string> = new EventEmitter<string>();
+        // tslint:disable-next-line:no-inferrable-types
         @Input() value: string = '';
         debounce: Subject<string> = new Subject<string>();
 
